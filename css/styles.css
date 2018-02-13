@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+div.wrapper {
+	width: 1120px;
+	height: 1100px;
+	margin: 0 auto;
+	padding: 90px 240px 210px 240px;
+	background-color: #E1E7EB;
+}
+
+.time {
+	font-size: 13px;
+	letter-spacing: 0px;
+	line-height: 30px;
+	color: rgb(129,129,129);
+	font-family: "Hans Kendrick";
+	background-color: #ffffff;
+}
+
+.article-heading {
+	font-size: 30px;
+	letter-spacing: 1px;
+	line-height: 36px;
+	color: rgb(29,29,29);
+	font-family: "Hans Kendrick";
+	background-color: #ffffff;
+}
+
+.large-article, .small-article {
+	display: inline-block;
+}
+
+
+
+.large-article-content {
+	position: relative;
+    left: 25px;
+    bottom: 90px;
+}
+
+.small-article {
+	background-color: white;
+	width: 360px;
+	height: 540px;
+	box-sizing: border-box;
+}
+
+
+.small-article-content, .author-avatar {
+	padding: 0 0 0 20px;
+}
